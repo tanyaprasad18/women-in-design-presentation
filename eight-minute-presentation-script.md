@@ -82,10 +82,6 @@ Tools are often designed for men or an “average” user shaped by men: handles
 
 “Unisex” does not guarantee fit. A vest designed around male proportions can gap, shift, restrict reach and create snag hazards. Fit-test with women doing the actual work.
 
-## 20. Bulletproof Vests (4:31-4:42)
-
-In the British Army, women have been found up to seven times more likely to suffer musculoskeletal injuries and ten times more likely to have hip and pelvic stress fractures, even at similar fitness levels. Poor fit can injure.
-
 ## 21. TSAS (4:42-4:53)
 
 The tactile situation-awareness system uses 32 vibrating sensors to orient pilots. Yet the research described a default user as “his” body, despite acknowledging vibration is detected differently across bodies. Pronouns can reveal assumptions.
