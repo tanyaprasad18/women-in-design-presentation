@@ -62,7 +62,7 @@
     .video-player video { display:block; width:100%; height:100%; object-fit:contain; }
     .number { display:none; }
     body.presentation-mode { overflow:hidden; }
-    body.presentation-mode .slide { display:none; height:100svh; min-height:100svh; }
+    body.presentation-mode .slide { display:none; height:100svh; min-height:100svh; overflow-y:auto; overscroll-behavior:contain; }
     body.presentation-mode .slide.is-active { display:grid; }
     .slide-controls { position:fixed; right:clamp(16px,2.5vw,36px); bottom:clamp(16px,2.5vw,36px); z-index:10; display:flex; gap:8px; }
     .slide-controls button { width:42px; height:42px; border:1px solid rgba(245,241,233,.55); border-radius:50%; background:rgba(23,32,29,.82); color:var(--paper); font:700 22px/1 "DM Sans",Arial,sans-serif; cursor:pointer; }
@@ -150,6 +150,7 @@
       slides[activeIndex]?.classList.remove('is-active');
       activeIndex = nextIndex;
       slides[activeIndex].classList.add('is-active');
+      slides[activeIndex].scrollTop = 0;
       previous.disabled = activeIndex === 0;
       next.disabled = activeIndex === slides.length - 1;
       window.location.hash = `slide-${activeIndex + 1}`;
